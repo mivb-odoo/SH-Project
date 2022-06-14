@@ -14,7 +14,9 @@
     'category': 'Training week 2',
     'version': '0.1',
     'depends': ['base'],
-    'data': [],
+    'data': [
+        'demo/academy_demo.xml',
+    ],
     'demo': [
         'demo/academy_demo.xml',
     ],
