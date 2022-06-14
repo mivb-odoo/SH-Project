@@ -15,6 +15,9 @@
     'version': '0.1',
     'depends': ['base'],
     'data': [
+        'security/academy_security.xml',
+        'security/ir.model.access.csv',
+        'views/academy_menuitems.xml',
         'demo/academy_demo.xml',
     ],
     'demo': [
