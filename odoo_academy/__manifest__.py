@@ -13,7 +13,7 @@
     'website': 'https://www.odoo.com',
     'category': 'Training week 2',
     'version': '0.1',
-    'depends': ['sale'],
+    'depends': ['sale', 'website'],
     'data': [
         'security/academy_security.xml',
         'security/ir.model.access.csv',
@@ -24,6 +24,7 @@
         'views/product_views_inherit.xml',
         'wizard/sale_wizard_view.xml',
         'report/session_report_templates.xml',
+        'views/academy_web_templates.xml',
         'demo/academy_demo.xml',
     ],
     'demo': [
